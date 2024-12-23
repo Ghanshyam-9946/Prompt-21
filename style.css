@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(213,205,254,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.nav {
+    padding: 2% 8%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    background-image: url(16a96432d18ac06bc55d09f93f4381d5--ux-logo-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.anchor {
+    margin-left: 30px;
+}
+.anchor a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.con1{
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2 {
+    height: 45%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa {
+    height: 80%;
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.a1 {
+    height: 80%;
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.ll {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 35px;
+}
